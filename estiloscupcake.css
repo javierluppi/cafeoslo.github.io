@@ -30,7 +30,7 @@ Texto oscuro: #3c3c3b
 */
 /*@media screen and (min-width:)*/
 .imagenuno{
-    background-image: url(Imágenes/fondo1\ OK.jpg);
+    background-image: url(imagenes/fondo1 OK.jpg);
     background-size: cover;
     background-position: center;
     height: 700px;
@@ -134,7 +134,7 @@ h2{
 }
 
 .imagendos{
-    background-image: url(Imágenes/Fondo2.jpg);
+    background-image: url(imagenes/Fondo2.jpg);
     background-size: cover;
     background-position: center;
     top: -950px;
