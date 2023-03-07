@@ -30,7 +30,7 @@ Texto oscuro: #3c3c3b
 */
 /*@media screen and (min-width:)*/
 .imagenuno{
-    background-image: url(cafeoslo.github.io/imagenes/Fondo1.jpg);
+    background-image: url(imagenes/Fondo1.jpg);
     background-size: cover;
     background-position: center;
     height: 700px;
