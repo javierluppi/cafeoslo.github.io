@@ -304,3 +304,139 @@ a:active{
 a:focus{
 
 }
+/*
+
+TABLET TABLET  TABLET TABLET TABLET TABLET TABLET TABLET TABLET TABLET TABLET TABLET TABLET TABLET
+TABLET TABLET TABLET TABLET TABLET TABLET TABLET TABLET TABLET TABLET TABLET TABLET TABLET TABLET
+TABLET TABLET TABLET TABLET TABLET TABLET TABLET TABLET TABLET TABLET TABLET TABLET TABLET TABLET
+TABLET TABLET TABLET TABLET TABLET TABLET TABLET TABLET TABLET TABLET TABLET TABLET TABLET TABLET
+
+*/
+
+@media screen and (min-width:750px){
+    #menu, #inicio{
+        display:none;
+
+    }
+    .navegador{
+        text-align: center;
+        min-width:300px;
+        max-width: 800px;
+        font-size: 15px;
+        height: 40px;
+        padding-top: 18px;
+        display: block;
+        position: absolute;
+        top: 22px;
+        right: 30px;
+        background-color: rgba(245, 245, 220, 0);
+    }    
+        .productos, .productos,.ofertas,.reservas,.contacto{
+        display: inline;
+    }
+    .navegador a{
+        color: #ffffff;
+        padding-bottom: 5px;
+        font-weight:400;
+        font-size: 18px;
+    }
+    .navegador a:hover{
+        border-bottom: 3px solid #d03b40;
+    }
+    .imagenuno{
+        max-width: 100%;
+    }  
+    .imagendos{
+        max-width: 100%;
+    }
+    .contenedor{
+        display: flex;
+    }
+    .contenedor1{
+        max-width: 50%;
+    }
+    .contenedor2{
+        max-width: 50%;
+    }
+    .texto1{
+        font-size: larger;
+        text-align: center;
+        
+    }
+    .texto2{
+        font-size: larger;
+        text-align: center;
+    }
+    #contenedorb{
+        display: flex;
+    }
+    #contenedorb2{
+        display: flex;
+    }
+    .contenedor3{
+        padding-right:30px;
+    }
+    .contenedor4{
+        padding-left: 30px;
+    }
+    .contenedor5{
+        padding-right: 30px;
+    }
+    .contenedor6{
+        padding-left: 30px;
+    }
+    hr{
+        display: none;
+    }
+    .recuadro{
+        margin-right: 150px;
+        margin-left: 150px;
+    }
+
+}  
+
+/*
+
+ ESCRITORIO ESCRITORIO ESCRITORIO ESCRITORIO ESCRITORIO ESCRITORIO ESCRITORIO ESCRITORIO ESCRITORIO ESCRITORIO
+ ESCRITORIO ESCRITORIO ESCRITORIO ESCRITORIO ESCRITORIO ESCRITORIO ESCRITORIO ESCRITORIO ESCRITORIO ESCRITORIO
+ ESCRITORIO ESCRITORIO ESCRITORIO ESCRITORIO ESCRITORIO ESCRITORIO ESCRITORIO ESCRITORIO ESCRITORIO ESCRITORIO
+
+ */
+
+ @media screen and (min-width:900px){
+    .recuadro{
+        margin-right: 300px;
+        margin-left: 300px;
+    }
+    
+    .texto1{
+        padding-left: 150px;
+        padding-right: 150px;
+    }
+    .navegador{
+        position: absolute;
+        top: 22px;
+        right: 150px;
+    }
+    .contenedor1{
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+    .contenedor2{
+        padding-right: 100px;
+        padding-left: 100px;
+    }
+    #contenedorb{
+        padding-right: 150px;
+        padding-left: 150px;
+    }
+    #contenedorb2{
+        padding-right: 150px;
+        padding-left: 150px;
+    }
+    .logo{
+        left:150px;
+    
+    
+    }
+}    
