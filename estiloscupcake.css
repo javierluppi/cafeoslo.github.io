@@ -1,8 +1,6 @@
 body{
     font-family: 'Open Sans', sans-serif;
-    margin: 0px;
-
-    
+    margin: 0px;    
 }
 
 /*
@@ -15,34 +13,29 @@ Gris: #241d1b
 Texto claro: #f5f0ed
 Texto oscuro: #3c3c3b
 
-kk
-
-@media screen and (min-width:350px){
-
-.imagenuno{
-    width: 350px;
-    height: 700px;
-    position: fixed;
-    top: 0px;
-    left:0px;
-}
-}
 */
-/*@media screen and (min-width:)*/
+
+/*
+MOVIL MOVIL MOVIL MOVIL MOVIL MOVIL MOVIL MOVIL MOVIL MOVIL MOVIL MOVIL MOVIL MOVIL MOVIL MOVIL
+MOVIL MOVIL MOVIL MOVIL MOVIL MOVIL MOVIL MOVIL MOVIL MOVIL MOVIL MOVIL MOVIL MOVIL MOVIL MOVIL
+MOVIL MOVIL MOVIL MOVIL MOVIL MOVIL MOVIL MOVIL MOVIL MOVIL MOVIL MOVIL MOVIL MOVIL MOVIL MOVIL
+MOVIL MOVIL MOVIL MOVIL MOVIL MOVIL MOVIL MOVIL MOVIL MOVIL MOVIL MOVIL MOVIL MOVIL MOVIL MOVIL
+*/
+
 .imagenuno{
     background-image: url(imagenes/Fondo1.jpg);
     background-size: cover;
     background-position: center;
     height: 700px;
     min-width: 300px;
-    max-width: 750px;
+    max-width: 900px;
 }
 
 #menu{
     font-size: 14px;
     position: absolute;
     right:30px;
-    top: 30px;
+    top: 35px;
     text-decoration: none;
     transition: border 0.5s;
     transition: color 0.5s;
@@ -60,10 +53,8 @@ kk
 }
 .logo{
     position: relative;
-    top:16px;
+    top:20px;
     left:30px;
-
-
 }
 .titulo{
     margin-top: 130px;
@@ -101,11 +92,11 @@ h2{
 .texto1{
     font-family: 'Open Sans', sans-serif;
     text-align: justify;
-    padding:30px;
+    padding-left:30px;
+    padding-right: 30px;
     color: #f5f0ed;
     font-weight:lighter;
     font-size: 18px;
-    max-width: 750px;
     /*
     backdrop-filter: blur(5px);
     */
@@ -138,40 +129,41 @@ h2{
     background-size: cover;
     background-position: center;
     top: -950px;
-    min-width: 450px;
-    max-width: 800px;
     height: 440px;
     font-family: 'Open Sans', sans-serif;
     text-align: center;
     padding:30px;
     min-width:300px;
-    max-width: 750px;
+    max-width: 900px;
     font-weight:lighter;
     font-size: 18px;
     color: #f5f0ed;
 }
 
 .recuadro{
+    text-align: center;
     padding: 15px;
     margin-top: 75px;
     border: 3px solid #f5f0ed;
     transition: color 1s;
+    margin-right: 30px;
+    margin-left: 30px;
+
 }
-.recuadro:hover{
-    font-weight: bold;
-    color: #4e4e4d;
-}
+
 .recuadro a:hover{
-    color: #ffffff;
-    font-size: 19px;
+    color:#686868;
+    font-size: 18px;
 }
 .recuadro a{
     text-decoration: none;
     color: #f5f0ed;
+    text-align: center;
 }
 .bloque4{
     margin-top: 80px;
 }
+
 #contenedorb{
     font-family: 'Open Sans', sans-serif;
     font-size: 18px;
@@ -181,28 +173,42 @@ h2{
     padding-right: 30px;
     color: #3c3c3b;
     min-width:300px;
-    max-width: 750px;
+}
+
+#contenedorb2{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight:600;
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: #3c3c3b;
+    min-width:300px;
 }
 
 .contenedor3 img{
     height: 100px;
     width: 100px;
     margin-top: 50px;
+    text-align: center;
 }
 .contenedor4 img{
     height: 100px;
     width: 100px;
     margin-top: 50px;
+    text-align: center;
 }
 .contenedor5 img{
     height: 100px;
     width: 100px;
     margin-top: 50px;
+    text-align: center;
 }
 .contenedor6 img{
     height: 100px;
     width: 100px;
     margin-top: 50px;
+    text-align: center;
 }
 .contenedor6{
     margin-bottom: 80px;
@@ -226,7 +232,7 @@ hr{
     text-align: center;
     padding: 25px;
     min-width:300px;
-    max-width: 750px;
+    max-width: 100%;
     font-weight:lighter;
     font-size: 18px;
     background-color: #d03b40;
@@ -244,11 +250,14 @@ hr{
     font-family: 'Open Sans', sans-serif;
     padding: 25px;
     min-width:300px;
-    max-width: 750px;
+    max-width: 100%;
     font-weight:lighter;
     font-size: 18px;
     background-color: #ded6c0;
     color: #d03b40;
+}
+.contenedorc{
+    width: 100%;
 }
 .contenedor7 p{
     text-align: center;
@@ -266,12 +275,16 @@ hr{
 }
 .navegador{
     text-align: center;
-    min-width:300px;
+    height: auto;
     max-width: 800px;
     font-size: 15px;
-    background-color:#3c3c3b ;
-    height: 40px;
-    padding-top: 18px;
+    background-color:#3c3c3b;
+    padding:1px;
+}
+    #inicio{
+        display:block
+    }
+.productos, .productos,.ofertas,.reservas,.contacto{
     display: block;
 }
 
@@ -283,14 +296,15 @@ hr{
 
 footer{
     background-color: #4e4e4d;
+    margin: 0px;
 }
 footer p{
     color: white;
-    font-size: 15px;
+    font-size: 10px;
     text-align: center;
     margin:0px;
     height: 40px;
-    padding-top: 18px;
+    padding-top: 22px;
 }
 
 .navegador a:hover{
@@ -304,6 +318,7 @@ a:active{
 a:focus{
 
 }
+
 /*
 
 TABLET TABLET  TABLET TABLET TABLET TABLET TABLET TABLET TABLET TABLET TABLET TABLET TABLET TABLET
@@ -440,3 +455,5 @@ TABLET TABLET TABLET TABLET TABLET TABLET TABLET TABLET TABLET TABLET TABLET TAB
     
     }
 }    
+
+
