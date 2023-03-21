@@ -1,2 +1,2 @@
 # javierluppi.github.io
-Primer Proyecto Responsive | (en progreso) | HTML5 CSS
+Primer Proyecto Responsive | (finalizado) | HTML5 + CSS
